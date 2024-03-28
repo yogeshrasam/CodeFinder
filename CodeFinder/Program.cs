@@ -33,6 +33,13 @@ namespace CodeFinder
             //string pathToPlugin = @"C:\TFS\ICM\Community\Plugin";
             //string pathToAssemblies = @"C:\TFS\ici-platform\src\Packages";
             //FindUsage(pathToPlugin, pathToAssemblies);
+            var maxVal = Max(1, 2);
+            Console.WriteLine(maxVal);
+        }
+
+        public static int Max(int a, int b)
+        {
+            return a > a ? a : b;
         }
 
         private static void TestStack()
