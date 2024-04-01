@@ -79,7 +79,6 @@ jobs:
       shell: cmd
       run: |
         msbuild CodeFinder.sln
-        exit 1
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
